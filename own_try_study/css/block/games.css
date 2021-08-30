@@ -1,0 +1,51 @@
+.main-gaimes__backgraund {
+  background: white;
+}
+
+.main-gaimes__container{
+  width: 1142px;
+  margin: 0 auto;
+  padding-top: 98px;
+  padding-bottom: 15px;
+}
+
+.main-gaimes__content-container {
+  display: flex;
+  height: 333px;
+  margin-bottom: 49px;
+
+}
+
+.main-gaimes__pictures{
+  width: 184%;
+  height: 100%;
+  margin-right: 25px;
+}
+
+.main-gaimes__text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.main-gaimes__title {
+  color: #000000;
+  font-size: 36px;
+}
+
+.main-gaimes__text{
+  color: #303030;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.main-gaimes__buttom {
+  width: 168px;
+  transition: 0.5s;
+}
+
+.main-gaimes__buttom:hover{
+  color: white;
+  background: #8F00FF;
+  cursor: pointer;
+}

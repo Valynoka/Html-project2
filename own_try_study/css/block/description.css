@@ -1,0 +1,45 @@
+.description {
+  position: relative;
+  margin-bottom: 55px;
+}
+
+.description__container{
+  padding-bottom: 40px;
+}
+.description__pictures {
+  display: inline-flex;
+}
+
+.description__background-2 {
+  position: relative;
+  width: 785px;
+  height: 455px;
+  z-index: 1;
+  right: 136px;
+  bottom: -97px;
+  background: linear-gradient(71.43deg, #8F00FF 0%, #148CFF 100%), #212121;
+}
+
+.description__info {
+  display: flex;
+  flex-direction: column;
+  left: 43%;
+  width: 100%;
+  min-height: 0%;
+  padding: 70px 204px 66px 81px;
+}
+
+.description__title {
+  font-size: 36px;
+  margin-bottom: 49px;
+}
+
+.description__text{
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 43px;;
+}
+
+.description__buttom {
+  background-color: transparent;
+}

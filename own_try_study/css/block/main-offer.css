@@ -1,0 +1,35 @@
+.main-offer{
+  margin-bottom: 170px;
+}
+
+.main-offer__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 550px;
+  min-height: 376px;
+}
+
+.main-offer__title {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.main-offer__text {
+  font-size: 21px;
+}
+
+.main-offer__text__button {
+  margin-top: 56px;
+}
+
+.main-offer__text__button:hover {
+  background: #741BBA;
+  cursor: pointer;
+  transition: 1s;
+}

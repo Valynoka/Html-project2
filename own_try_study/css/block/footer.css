@@ -1,0 +1,139 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 150px;
+  width: 1140px;
+  margin: 0 auto;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer__container {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  min-height: 101px;
+  margin-bottom: 0px;
+}
+
+.footer__right-side {
+  display: inline-flex;
+  align-items: center;
+}
+
+.footer__logo {
+  margin-right: 132px;
+}
+
+.footer__menu-link {
+  margin-right: 66px;
+}
+
+.footer__menu-link:hover {
+  color:#8F00FF;
+  transition: 0.5s;
+}
+
+.footer__menu-list {
+  display: inline-flex;
+}
+
+.footer__left-side {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 441px;
+}
+
+.footer__socials-items {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+.footer__socials-item-telegram {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right: 10px;
+  width: 36px;
+  height: 36px;
+  background: url(../../social/telega.png);
+  background-position: -10px -10px;
+  transition: 0.5s;
+}
+
+.footer__socials-item-telegram:hover {
+  background: url(../../social/telega.png);
+  background-position: -10px -66px;
+}
+
+.footer__socials-item-vk {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right: 10px;
+  width: 36px;
+  height: 36px;
+  background: url(../../social/vkonact.png);
+  background-position: -10px -10px;
+  transition: 0.5s;
+}
+
+.footer__socials-item-vk:hover {
+  background: url(../../social/vkonact.png);
+  background-position: -10px -66px;
+}
+
+.footer__socials-item-fb {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right: 10px;
+  width: 36px;
+  height: 36px;
+  background: url(../../social/faceb.png);
+  background-position: -10px -10px;
+  transition: 0.5s;
+}
+
+.footer__socials-item-fb:hover {
+  background: url(../../social/faceb.png);
+  background-position: -10px -66px;
+}
+
+.footer__socials-item-insta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right: 10px;
+  width: 36px;
+  height: 36px;
+  background: url(../../social/insta.png);
+  background-position: -10px -10px;
+  transition: 0.5s;
+}
+
+.footer__socials-item-insta:hover {
+  background: url(../../social/insta.png);
+  background-position: -10px -66px;
+}
+
+.footer__contacts {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.footer__contact-title {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 11px;
+  margin-bottom: 6px;
+}
+
+.footer__tell-number {
+  font-size: 26px;
+}
